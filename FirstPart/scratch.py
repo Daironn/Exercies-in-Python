@@ -1,19 +1,19 @@
-def seimano(array):
-    eluwa = ''
+def fun(array):
+    str = ''
     for i in range(len(array)):
 
         if(array[i] == array[-1]):
 
-            eluwa = eluwa + 'i ' + array[i]
+            str = str + 'i ' + array[i]
         else:
 
-            eluwa = eluwa + array[i] + ','
+            str = str + array[i] + ','
 
-    return eluwa
+    return str
 
 
 
 
 spam = ['Jabłka', 'Banany', 'Tofu', 'Koty']
-witam = seimano(spam)
+result = fun(spam)
 print(witam)

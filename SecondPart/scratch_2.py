@@ -19,4 +19,4 @@ def mystrip(string, char = " "):
 
     return strumien
 
-print(mystrip(  "  --**siema**********----", "-"  ))
+print(mystrip(  "  --**test**********----", "-"  ))
